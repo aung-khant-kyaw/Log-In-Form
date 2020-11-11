@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .abc{
+            width: 50%;
+            float: left;
+        }
+        .fb{
+            margin: 40% 200px;
+        }
+        .fb h1{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: blue;
+        }
+        .containter{
+            margin: 28% 0%;
+            border: 1px solid whitesmoke;
+            background-color: whitesmoke;
+            width: 350px;
+            height: 270px;
+            text-align: center;
+        }
+        input{
+            width: 300px;
+            height: 30px;
+            margin-top: 10px;
+        }
+        .li{
+            width: 300px;
+            height: 30px;
+            margin: 10px;
+            background-color: blue;
+            color: white;
+            font-weight: bolder;
+        }
+        a{
+            text-decoration: none;
+        }
+        button{
+            margin: 10px 0 20px;
+            background-color: rgb(100 , 255 , 0);
+            color: white;
+            font-weight: bolder;
+            width: 200px;
+            height: 30px;
+        }
+        .a{
+            margin-top: -25%;
+            margin-left: 10px;
+            font-weight: bolder;
+        }
+        @media screen and (max-width: 500px) {
+            .abc{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="abc">
+            <div class="fb">
+            <h1>facebook</h1>
+            <p>Facebook helps you connect and shate with the people in our life</p>
+            </div>
+        </div>
+        <div class="abc">
+            <div class="containter">
+                <input type="text" placeholder="Email address or phone number"><br>
+                <input type="text" placeholder="Password"><br>
+                <button class="li"><link rel="stylesheet" href="facebook.com">Log in</button><br>
+                <a href="#">Forgot account?</a>
+                <pre><del>                                      </del></pre>
+                <button>create new account</button>
+            </div>
+            <p class="a">Create a Page for a celebrity brand or business.</p>
+        </div>
+    </div>
+    </body>
+</html>
